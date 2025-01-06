@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le Morpion</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <main>
+        <h1>Tic Tac Toe Game</h1>
+        <div id="puissanceQuatre" style="display: none;">
+            <div class="puissance-Container">
+                <div id="tableau" ></div>
+                <div id="msg-puissance"></div>
+            </div>
+        </div>
 
+
+        <button id="start-button">Morpion</button>
+        <div id="morpion" style="display: none;">
+            <div class="container">
+                <div id="board"></div>
+            </div>
+            <div id="message"></div>
+            <button id="reset-button">Recommencer</button>
+        </div>
+        <button id="puissFor">Puissance 4</button>
+       
     </main>
     <script src="assets/js/main.js"></script>
 </body>
-</html>  
+
+</html>
